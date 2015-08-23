@@ -1,0 +1,8 @@
+# Composer & PHP
+/composer.lock
+/vendor/*
+.php_cs.cache
+
+# Node.js
+/node_modules/*
+/npm-debug.log

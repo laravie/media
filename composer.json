@@ -1,0 +1,27 @@
+{
+    "name": "laravie/media",
+    "description": "Orchestra Platform Media Extension",
+    "license": "MIT",
+    "type": "extension",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com",
+            "homepage": "https://github.com/crynobone"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravie\\Media\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "orchestra/contracts": "~3.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.1",
+        "orchestra/testing": "~3.1.0"
+    },
+    "minimum-stability": "dev"
+}

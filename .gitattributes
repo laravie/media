@@ -1,0 +1,5 @@
+* text=auto
+
+# Ignore following folder/file.
+/LICENSE    export-ignore
+/README.md  export-ignore
